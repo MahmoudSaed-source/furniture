@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <meta name = "viwopor" content="width = device-width,initial-scale =1.0">
+ <link rel="stylesheet" href="stylefurniture.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>furniture</title>  
+<script src="https://kit.fontawesome.com/d0fd9c1a64.js" crossorigin="anonymous"></script>
+ </head>   
+ <body>
+ <div class="cartdisplay " id = "cartdisplay">
+  <div class = "headercart"><h2>YourCart<h2></div>
+    <div class = "displaycontiner" id = "displaycontiner">
+      <!-- Dynamic Content Here -->
+           </div> 
+     <div class="price" id = "pricetotle">
+    <span class= "totelprice"><h2>Total Price</h2></span>
+    <span class = "viewprice" id="viewprice"><h2>0$000</h2></span>
+     </div>  
+     <div class="clear-cart">
+      <button class="clearCart">Clear Cart</button>
+    </div>
+ </div>
+  <!--============= START NAV =====================-->
+    <nav class = "option" id = "option">
+    <ul > 
+      <span>city of furniture <i class="fas fa-couch"></i></span>
+                <li class= "li_one"> <a href = ""><span class = "first">H</span>OME</a>
+    </li>   
+                  <li class= "li_one"><a href = "#"><span class = "first">M</span>attresses and bedding</a>
+                    <ul>
+                      <li class= li_tow><a href = "#"> Mattresses and bedding</a></li>   
+                      <li class= li_thre><a href = "#"> Garden furniture</a></li>   
+                      <li class= li_four><a href = "#">Lighting</a></li>   
+                      <li class= li_five><a href = "#">Kitchens</a></li>   
+                      <li class= li_six><a href = "#">Curtains</a></li>   
+              </ul>
+                  </li>   
+                  <li class= "li_one"><a href = "#"><span class = "first">G</span>arden furniture</a>
+                    <ul>
+                      <li class= li_tow><a href = "#"> Mattresses and bedding</a></li>   
+                      <li class= li_thre><a href = "#"> Garden furniture</a></li>   
+                      <li class= li_four><a href = "#">Lighting</a></li>   
+                      <li class= li_five><a href = "#">Kitchens</a></li>   
+                      <li class= li_six><a href = "#">Curtains</a></li>   
+              </ul>
+            </li>   
+                  <li class= "li_one"><a href = "#"><span class = "first">L</span>ighting</a>
+                    <ul>
+                      <li class= li_tow><a href = "#"> Mattresses and bedding</a></li>   
+                      <li class= li_thre><a href = "#"> Garden furniture</a></li>   
+                      <li class= li_four><a href = "#">Lighting</a></li>   
+                      <li class= li_five><a href = "#">Kitchens</a></li>   
+                      <li class= li_six><a href = "#">Curtains</a></li>   
+              </ul>
+            </li>   
+                  <li class= "li_one"><a href = "#"><span class = "first">K</span>itchens</a>
+                    <ul>
+                      <li class= li_tow><a href = "#"> Mattresses and bedding</a></li>   
+                      <li class= li_thre><a href = "#"> Garden furniture</a></li>   
+                      <li class= li_four><a href = "#">Lighting</a></li>   
+                      <li class= li_five><a href = "#">Kitchens</a></li>   
+                      <li class= li_six><a href = "#">Curtains</a></li>   
+              </ul>
+            </li>   
+                  <li class= "li_one"><a href = "#"><span class = "first">C</span>urtains</a>
+                    <ul>
+                      <li class= li_tow><a href = "#"> Mattresses and bedding</a></li>   
+                      <li class= li_thre><a href = "#"> Garden furniture</a></li>   
+                      <li class= li_four><a href = "#">Lighting</a></li>   
+                      <li class= li_five><a href = "#">Kitchens</a></li>   
+                      <li class= li_six><a href = "#">Curtains</a></li>   
+              </ul>
+            </li>
+            <span class = "cart" id = "cart" > <i class="fas fa-shopping-cart"></span></i></span>
+            <span id = "number_of_item"><sup >0</sup></span>
+                  
+    </ul>   
+   </nav> 
+   <!--============= END NAV =====================-->
+   
+   <!--============= HEADER =====================-->
+       
+  <header class="header" id= "headerid" >
+                    <h1 id ="namesit">City of Furniture</h1>
+                    <input type="search"  class = "searchtool" id="searchtool">
+                    <img  class= "search-icon " id = "headerimg" src = "005.ico">
+
+</header> 
+
+
+<!--============= END HEADER======================-->   
+          
+
+
+<!--===========control div========================-->
+          
+<div class="controlbutoon">
+                    <label >VIEW STYLE</label>
+                    <i class="fa fa-table icon" style="font-size:20px;" id = "defoualt" title="default"></i>
+                    <i class="fas fa-border-all icon" id ="tosid" title="TOW ITEM VIEW"></i>
+                    <i class="fas fa-table icon"  title="gallery view"   id ="gallerysaid"></i>
+   
+</div>
+<br>
+
+<!--============= END CONTROL BUTTON======================-->
+<!--============= START BODY==============================-->
+<div class="contineritem  " id ="conitem" >
+         <div class="item "  data = "1">
+                            <h3 id = "nameitem"></h3 >
+                            <img src="gallery1/008.jpg" alt="001"> 
+                            <p class = "scand"></p>
+             <div class = "continer">
+                          <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+              </div>
+  </div>
+      <div class="item " data = "2" >
+                            <h3 id = "nameitem"></h3 >
+                            <img src="boderoom/009.jpg" alt="001"> 
+                            <p class = "scand"></p>
+                 <div class = "continer">
+                              <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+                </div>
+      </div>
+<div class="item" data = "3">
+ <h3 id = "nameitem"></h3>
+ <img id = "srcimg" src="classic/005.jpg" alt="001"> 
+ <p  id = "price" class = "scand" ></p>
+ <div class = "continer" id ="continer_add">
+  <i   class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+ </div>
+<div class="item" data = "4">
+ <h3 id = "nameitem"></h3 >
+ <img id = "srcimg" src="tabel/005.jpg" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "5">
+ <h3 id = "nameitem"></h3>
+ <img id = "srcimg" src="gallerymodern/005.jfif" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "6">
+ <h3 id = "nameitem"></h3 >
+ <img id = "srcimg" src="0022.jpg" alt="001"> 
+ <p  id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "7">
+ <h3 id = "nameitem"></h3 >
+ <img id = "srcimg" src="0023.jpg" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "8">
+ <h3 id = "nameitem"></h3 >
+ <img id = "srcimg" src="img/001.jpg" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "9">
+ <h3 id = "nameitem"></h3>
+ <img id = "srcimg" src="img/001.jpg" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "10">
+ <h3 id = "nameitem"></h3>
+ <img id = "srcimg" src="img/001.jpg" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "11">
+ <h3 id = "nameitem"></h3>
+ <img id = "srcimg" src="img/001.jpg" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>ADD TO CART</i>
+</div>
+</div>
+<div class="item" data = "12">
+ <h3 id = "nameitem"></h3>
+ <img  id = "srcimg" src="img/001.jpg" alt="001"> 
+ <p id = "price" class = "scand"></p>
+ <div class = "continer">
+  <i class="fas fa-cart-plus"></i>  ADD TO CART</i>
+</div>
+</div>
+
+</div>
+<!--=============  END BODY==============================-->
+<!--=============  start new section  ====================-->
+<div class="prviwe"> 
+  <div class="ditelesimg" id = "info">
+    <h2 id = "h2">
+    </h2>
+    <p id = "p2" ></p>
+    <p class="p" >Browse</p>
+     </div>
+  <div class="imgshow" id = "imgdiv">
+  <img  id = "displayimg" src  = "">  
+    
+   <ul>
+     <li>1___</li>
+     <li>2___</li>
+     <li>3___</li>
+     <li>4___</li>
+   </ul> 
+  </div>
+</div>
+<!--=============  end new section  ====================-->
+ 
+
+  <script  src="furniture.js"  ></script>
+ 
+ 
+ 
+
+ </body>
+</html>
